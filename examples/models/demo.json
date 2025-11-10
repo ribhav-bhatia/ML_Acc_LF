@@ -1,0 +1,25 @@
+{
+  "dtype_bytes": 2,
+  "ops": [
+    {
+      "type": "Conv2D",
+      "name": "conv1",
+      "N": 1,
+      "C": 3,
+      "H": 224,
+      "W": 224,
+      "K": 64,
+      "R": 7,
+      "S": 7,
+      "stride": 2,
+      "padding": 3
+    },
+    {
+      "type": "MatMul",
+      "name": "fc",
+      "M": 1000,
+      "K": 2048,
+      "N": 1
+    }
+  ]
+}

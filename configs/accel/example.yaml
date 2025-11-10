@@ -1,0 +1,11 @@
+name: TinySIM
+pe_array:
+  rows: 16
+  cols: 16
+  mac_per_cycle: 1
+frequency_GHz: 1.0
+dram:
+  bw_Bps: 100000000000.0
+energy:
+  e_mac_pJ: 0.2
+  e_dram_pJ_per_B: 200.0
